@@ -1,0 +1,167 @@
+[2025-02-08 10:34:36,244] [ERROR] Missing required arguments. Please provide --url and --temp parameters.
+Run 'python app.py --help' for usage guide.
+Stack trace:
+None
+---
+
+[2025-02-08 10:35:04,249] [ERROR] An error occurred during execution
+Stack trace:
+(<class 'TypeError'>, TypeError("BrowserConfig.__init__() got an unexpected keyword argument 'timeout'"), <traceback object at 0x00000242A7AA5880>)
+---
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 109, in main
+    browser_cfg = BrowserConfig(
+                  ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'timeout'
+[2025-02-08 10:35:04,251] [ERROR] Fatal error in main execution
+Stack trace:
+(<class 'TypeError'>, TypeError("BrowserConfig.__init__() got an unexpected keyword argument 'timeout'"), <traceback object at 0x00000242B5D7B3C0>)
+---
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 138, in <module>
+    asyncio.run(main())
+  File "C:\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 109, in main
+    browser_cfg = BrowserConfig(
+                  ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'timeout'
+[2025-02-08 10:37:45,412] [ERROR] An error occurred during execution
+Stack trace:
+(<class 'TypeError'>, TypeError("CrawlerRunConfig.__init__() got an unexpected keyword argument 'timeout'"), <traceback object at 0x000002AAC2076E40>)
+---
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 105, in main
+    crawl_config = CrawlerRunConfig(
+                   ^^^^^^^^^^^^^^^^^
+TypeError: CrawlerRunConfig.__init__() got an unexpected keyword argument 'timeout'
+[2025-02-08 10:37:45,421] [ERROR] Fatal error in main execution
+Stack trace:
+(<class 'TypeError'>, TypeError("CrawlerRunConfig.__init__() got an unexpected keyword argument 'timeout'"), <traceback object at 0x000002AAC1138C40>)
+---
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 139, in <module>
+    asyncio.run(main())
+  File "C:\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 105, in main
+    crawl_config = CrawlerRunConfig(
+                   ^^^^^^^^^^^^^^^^^
+TypeError: CrawlerRunConfig.__init__() got an unexpected keyword argument 'timeout'
+[2025-02-08 10:45:17,285] [ERROR] An error occurred during execution
+Stack trace:
+(<class 'TypeError'>, TypeError("CrawlerRunConfig.__init__() got an unexpected keyword argument 'timeout'"), <traceback object at 0x000002C2B89F5340>)
+---
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 105, in main
+    crawl_config = CrawlerRunConfig(
+                   ^^^^^^^^^^^^^^^^^
+TypeError: CrawlerRunConfig.__init__() got an unexpected keyword argument 'timeout'
+[2025-02-08 10:45:17,287] [ERROR] Fatal error in main execution
+Stack trace:
+(<class 'TypeError'>, TypeError("CrawlerRunConfig.__init__() got an unexpected keyword argument 'timeout'"), <traceback object at 0x000002C2B7A75DC0>)
+---
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 139, in <module>
+    asyncio.run(main())
+  File "C:\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 105, in main
+    crawl_config = CrawlerRunConfig(
+                   ^^^^^^^^^^^^^^^^^
+TypeError: CrawlerRunConfig.__init__() got an unexpected keyword argument 'timeout'
+[2025-02-08 10:47:01,228] [ERROR] An error occurred during execution
+Stack trace:
+(<class 'TypeError'>, TypeError("BrowserConfig.__init__() got an unexpected keyword argument 'timeout'"), <traceback object at 0x0000016099A5A600>)
+---
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 109, in main
+    browser_cfg = BrowserConfig(
+                  ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'timeout'
+[2025-02-08 10:47:01,228] [ERROR] Fatal error in main execution
+Stack trace:
+(<class 'TypeError'>, TypeError("BrowserConfig.__init__() got an unexpected keyword argument 'timeout'"), <traceback object at 0x0000016099C76040>)
+---
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 138, in <module>
+    asyncio.run(main())
+  File "C:\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 109, in main
+    browser_cfg = BrowserConfig(
+                  ^^^^^^^^^^^^^^
+TypeError: BrowserConfig.__init__() got an unexpected keyword argument 'timeout'
+[2025-02-08 11:37:41,423] [ERROR] An error occurred during execution
+Stack trace:
+(<class 'pydantic_core._pydantic_core.ValidationError'>, 1 validation error for ExtractedItem
+date
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type, <traceback object at 0x00000213AD78E000>)
+---
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 196, in main
+    ExtractedItem(**item)
+  File "C:\Users\denni\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ExtractedItem
+date
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
+[2025-02-08 11:37:41,447] [ERROR] Fatal error in main execution
+Stack trace:
+(<class 'pydantic_core._pydantic_core.ValidationError'>, 1 validation error for ExtractedItem
+date
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type, <traceback object at 0x00000213AC16CE00>)
+---
+Traceback (most recent call last):
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 232, in <module>
+    asyncio.run(main())
+  File "C:\Python312\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\asyncio\base_events.py", line 691, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\denni\Documents\deepseekwebscraper\app.py", line 196, in main
+    ExtractedItem(**item)
+  File "C:\Users\denni\AppData\Roaming\Python\Python312\site-packages\pydantic\main.py", line 214, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for ExtractedItem
+date
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.10/v/string_type
