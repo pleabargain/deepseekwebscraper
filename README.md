@@ -1,5 +1,10 @@
 # DeepSeek Web Scraper
 
+# repo
+https://github.com/pleabargain/deepseekwebscraper
+
+Thanks to https://github.com/fahdmirza/deepseekwebscraper for the initial implementation.
+
 ## Overview
 A Python-based web scraper that extracts content from websites using crawl4ai library and Ollama's deepseek-r1 model for intelligent content extraction. The scraper uses natural language instructions to identify and extract titles and dates from content, outputting them in a structured JSON format.
 
